@@ -10,7 +10,7 @@ before_install:
   - npm install -g protractor@1.5
   - webdriver-manager update  
   - bower install
-  - npm install karma-firefox-launcher --save-dev
+  - npm install karma-chrome-launcher --save-dev
 before_script:
   - grunt
   - cd dist
