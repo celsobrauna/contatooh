@@ -15,4 +15,4 @@ before_script:
   - cd dist
   - npm	install	karma-phantomjs-launcher@0.1	--save-dev
 script:
- - karma start config/karma.config.js --single-run --browsers Firefox
+ - karma start config/karma.config.js --single-run --browsers PhantomJS
