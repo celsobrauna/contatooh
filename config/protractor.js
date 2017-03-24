@@ -15,7 +15,7 @@ exports.config = {
     browser.driver.findElement(by.id('login_field'))
     	.sendKeys('celsobrauna@gmail.com');
     browser.driver.findElement(by.id('password'))
-    	.sendKeys('tachma20');
+    	.sendKeys('ksoaksoaksoakso');
     browser.driver.findElement(by.name('commit')).click();  
 
     });
